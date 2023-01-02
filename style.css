@@ -1,0 +1,83 @@
+body
+{
+    background-color: rgb(148, 62, 230);
+    color: white;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container
+{
+    background-color: rgb(188, 218, 21);
+    padding: 50px;
+    border-radius: 1rem;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#logo
+{
+    height: 150px;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+input
+{
+  padding: 1rem;
+  background-color: rgb(85, 85, 219);
+  border: 2px solid black;
+  border-radius: 20px;
+  
+}
+
+#btn
+{
+    cursor: pointer;
+    padding: .5rem 1rem;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+    
+}
+
+#btn:hover
+{
+    background-color: green;
+}
+#btn1
+{
+    cursor: pointer;
+    padding: .5rem 1rem;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+}
+
+#btn1:hover{
+    background-color: red;
+}
+
+#alarm
+{
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+}

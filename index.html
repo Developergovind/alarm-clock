@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Digital Clock</title>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 >Welcome to the digital Clock</h1>
+
+        <img id="logo" src="/img/clock-1293099.png" alt="">
+
+        <div id="alarm"> </div>
+        <input type="datetime-local" name="alarmType" onchange="setAlarmTime(this.value)">
+        <div class="controles">
+            <button id="btn" class="button set-alarm" onclick="setAlarm()">Set Alarm</button>
+            <button id="btn1" class="button clear-alarm" onclick="clearAlarm()">Clear Alarm</button>
+        </div>
+    </div>
+    <script src="/demo.js"></script>
+</body>
+
+</html>
